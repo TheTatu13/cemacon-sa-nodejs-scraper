@@ -14,7 +14,7 @@
 
 ## Current Job Listings (16)
 
-_Generated: 2026-09-22T19:56:47.449Z_
+_Generated: 2026-09-22T22:58:06.597Z_
 
 ### Expert tehnic – (part time)
 
