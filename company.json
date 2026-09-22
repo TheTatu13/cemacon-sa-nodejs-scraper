@@ -1,0 +1,67 @@
+{
+  "validatedAt": "2026-09-22T19:56:45.584Z",
+  "source": "ANAF",
+  "brand": "Cemacon",
+  "anaf": {
+    "cui": 677858,
+    "name": "CEMACON -  S.A.",
+    "address": "JUD. SĂLAJ, SAT RECEA COM. VÂRŞOLŢ, RECEA",
+    "registrationNumber": "J2012002466120",
+    "phone": "0741096303",
+    "fax": "",
+    "postalCode": "457356",
+    "caenCode": "2332",
+    "iban": "",
+    "registrationState": "INREGISTRAT din data 12.09.2012",
+    "registrationDate": "1992-11-29",
+    "fiscalAuthority": "Direcţia Generală de Administrare a Marilor Contribuabili",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT AUTOHTON",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ PE ACŢIUNI",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "1993-07-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": false,
+    "headquartersAddress": {
+      "street": "Cal. Turzii",
+      "number": "178K - 188S",
+      "locality": "Mun. Cluj-Napoca",
+      "county": "CLUJ",
+      "country": "",
+      "postalCode": ""
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [],
+    "authorizedCaenCodes": [],
+    "onrcStatus": 0,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": null,
+  "summary": {
+    "company": "CEMACON -  S.A.",
+    "cif": "677858",
+    "active": true,
+    "inactiveSince": null,
+    "address": "JUD. SĂLAJ, SAT RECEA COM. VÂRŞOLŢ, RECEA"
+  }
+}

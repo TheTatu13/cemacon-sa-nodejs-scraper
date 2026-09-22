@@ -1,0 +1,10 @@
+{
+  "id": "677858",
+  "company": "CEMACON SA",
+  "brand": "Cemacon",
+  "status": "activ",
+  "location": ["Cluj-Napoca"],
+  "website": ["https://cemacon.ro"],
+  "career": ["https://cemacon.ro/cariere/"],
+  "scraperFile": "https://github.com/TheTatu13/cemacon-sa-nodejs-scraper/actions/workflows/scrape.yml"
+}
