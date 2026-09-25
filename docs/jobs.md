@@ -1,4 +1,4 @@
-# CEMACON -  S.A.
+# CEMACON SA
 
 ## Company Info
 
@@ -10,11 +10,11 @@
 | Location | JUD. SĂLAJ, SAT RECEA COM. VÂRŞOLŢ, RECEA |
 | Website | [https://cemacon.ro](https://cemacon.ro) |
 | Careers | [https://cemacon.ro/cariere/](https://cemacon.ro/cariere/) |
-| Last Scraped | 2026-09-24 |
+| Last Scraped | 2026-09-25 |
 
 ## Current Job Listings (16)
 
-_Generated: 2026-09-24T10:56:43.863Z_
+_Generated: 2026-09-25T10:58:22.358Z_
 
 ### Expert tehnic – (part time)
 
