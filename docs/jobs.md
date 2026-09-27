@@ -10,11 +10,11 @@
 | Location | JUD. SĂLAJ, SAT RECEA COM. VÂRŞOLŢ, RECEA |
 | Website | [https://cemacon.ro](https://cemacon.ro) |
 | Careers | [https://cemacon.ro/cariere/](https://cemacon.ro/cariere/) |
-| Last Scraped | 2026-09-26 |
+| Last Scraped | 2026-09-27 |
 
-## Current Job Listings (16)
+## Current Job Listings (15)
 
-_Generated: 2026-09-26T10:39:01.040Z_
+_Generated: 2026-09-27T11:12:21.360Z_
 
 ### Expert tehnic – (part time)
 
@@ -94,12 +94,6 @@ _Generated: 2026-09-26T10:39:01.040Z_
 ### INGINER AUTOMATIST
 
 - **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3362324](https://mediere.anofm.ro/app/module/mediere/job/3362324)
-- **Location:** România
-- **Status:** scraped
-
-### STIVUITORIST
-
-- **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3359947](https://mediere.anofm.ro/app/module/mediere/job/3359947)
 - **Location:** România
 - **Status:** scraped
 
