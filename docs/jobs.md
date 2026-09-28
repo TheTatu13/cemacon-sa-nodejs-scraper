@@ -10,11 +10,11 @@
 | Location | JUD. SĂLAJ, SAT RECEA COM. VÂRŞOLŢ, RECEA |
 | Website | [https://cemacon.ro](https://cemacon.ro) |
 | Careers | [https://cemacon.ro/cariere/](https://cemacon.ro/cariere/) |
-| Last Scraped | 2026-09-27 |
+| Last Scraped | 2026-09-28 |
 
 ## Current Job Listings (15)
 
-_Generated: 2026-09-27T11:12:21.360Z_
+_Generated: 2026-09-28T12:39:35.178Z_
 
 ### Expert tehnic – (part time)
 
@@ -97,6 +97,12 @@ _Generated: 2026-09-27T11:12:21.360Z_
 - **Location:** România
 - **Status:** scraped
 
+### STIVUITORIST
+
+- **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3359947](https://mediere.anofm.ro/app/module/mediere/job/3359947)
+- **Location:** România
+- **Status:** scraped
+
 ### MANAGER ACHIZITII
 
 - **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3264224](https://mediere.anofm.ro/app/module/mediere/job/3264224)
@@ -107,10 +113,4 @@ _Generated: 2026-09-27T11:12:21.360Z_
 
 - **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3264182](https://mediere.anofm.ro/app/module/mediere/job/3264182)
 - **Location:** CLUJ-NAPOCA
-- **Status:** scraped
-
-### MANAGER
-
-- **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3263890](https://mediere.anofm.ro/app/module/mediere/job/3263890)
-- **Location:** România
 - **Status:** scraped
