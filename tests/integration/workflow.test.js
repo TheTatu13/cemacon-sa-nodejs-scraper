@@ -32,6 +32,19 @@ const COMPANY_NAME = companyConfig.company;
 // while the company config / company core keep the real CIF. Compare loosely.
 const cifMatches = (value) => String(value).replace(/^0+/, '') === COMPANY_CIF.replace(/^0+/, '');
 
+// ANAF's own registry returns the full legal name verbatim -- punctuation,
+// legal-form suffix and whitespace included (e.g. "CEMACON -  S.A.", double
+// space and all) -- which legitimately differs from the short display name
+// we configure in company.json ("CEMACON SA") and use to tag jobs/company
+// core. That's not drift to fix in config, it's just two different strings
+// for the same entity, so comparisons against the *raw ANAF name* strip
+// everything but letters/digits before comparing. (This stopped being
+// masked once demoanaf.ro's free tier sunset 2026-08-21 and ANAF lookups
+// started falling back to cuiscan.ro/cuifirma.ro, which return the
+// unnormalized legal name instead of demoanaf's cleaner one.)
+const normalizeLegalName = (value) => String(value).toUpperCase().replace(/[^A-Z0-9]/g, '');
+const legalNameMatches = (value) => normalizeLegalName(value) === normalizeLegalName(COMPANY_NAME);
+
 async function checkApiAvailability() {
   try {
     const res = await fetch(`${API_BASE}/scraper/jobs/?cif=${COMPANY_CIF}&rows=1`, {
@@ -97,7 +110,7 @@ describe('Integration: API Workflow', () => {
       const data = await anaf.getCompanyFromANAF(COMPANY_CIF);
 
       expect(data).toBeDefined();
-      expect(data.name).toBe(COMPANY_NAME);
+      expect(legalNameMatches(data.name)).toBe(true);
       expect(data).toHaveProperty('address');
       expect(data).toHaveProperty('registrationNumber');
       expect(data).toHaveProperty('caenCode');
@@ -255,7 +268,7 @@ describe('Integration: API Workflow', () => {
       expect(matchedCompany).toBeDefined();
 
       const anafData = await anaf.getCompanyFromANAF(matchedCompany.cui.toString());
-      expect(anafData.name).toBe(COMPANY_NAME);
+      expect(legalNameMatches(anafData.name)).toBe(true);
       expect(anafData.inactive).toBe(false);
     }, 30000);
 
