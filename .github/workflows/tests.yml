@@ -20,4 +20,4 @@ jobs:
     permissions:
       contents: write
       issues: write
-    uses: TheTatu13/Brewtality-3-16/.github/workflows/tests-js-reusable.yml@main
+    uses: peviitor-scrapers/Brewtality-3-16/.github/workflows/tests-js-reusable.yml@main

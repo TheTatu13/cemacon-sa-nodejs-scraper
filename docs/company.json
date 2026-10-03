@@ -12,6 +12,6 @@
   "career": [
     "https://cemacon.ro/cariere/"
   ],
-  "scraperFile": "https://github.com/TheTatu13/cemacon-sa-nodejs-scraper/actions/workflows/scrape.yml",
+  "scraperFile": "https://github.com/peviitor-scrapers/cemacon-sa-nodejs-scraper/actions/workflows/scrape.yml",
   "ownJobUrlPrefix": "https://cemacon.ro/cariere/"
 }
